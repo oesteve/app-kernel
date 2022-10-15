@@ -1,0 +1,21 @@
+{
+  "name": "oesteve",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "npm run test -w app-kernel",
+    "build": "npm run build -w app-kernel"
+  },
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "app-kernel",
+    "examples/server",
+    "examples/react-app",
+    "examples/tenis-stats"
+  ]
+}

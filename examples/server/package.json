@@ -1,0 +1,13 @@
+{
+  "name": "@oesteve/app-kernel-example-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "node dist/app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

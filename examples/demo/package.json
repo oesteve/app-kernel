@@ -1,0 +1,18 @@
+{
+  "name": "@oesteve/app-kernel-kernel-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "ts-node index.ts",
+    "calculator": "ts-node calculator.ts",
+    "express": "ts-node express.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.14",
+    "express": "^4.18.1",
+    "ts-node": "^10.9.1"
+  }
+}

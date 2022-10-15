@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "properties": {
+    "taskId": {
+      "type": "string",
+      "description": "Task id"
+    },
+    "task": {
+      "type": "string",
+      "description": "The task to do"
+    }
+  },
+  "required": [
+    "task",
+    "taskId"
+  ],
+  "additionalProperties": false
+}

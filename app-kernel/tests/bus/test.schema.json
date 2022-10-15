@@ -1,0 +1,15 @@
+{
+  "$id": "https://example.com/person.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Hello World!",
+  "type": "object",
+  "properties": {
+    "bar": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "bar"
+  ],
+  "description": "My first JSON Schema."
+}
